@@ -5,9 +5,9 @@
 
 }
 
-body
+.body
 {
-
+    padding-bottom: 70px;
     background-color:#643A6B;
 
 }
@@ -68,16 +68,27 @@ padding-top: 39x;
     font-size: 20px;
 }
 
-.fine{
-    color: aliceblue;
-    padding: 0 45%;
-    padding-top: 30px;
-    font-size: larger;
-    font-weight: 700;
-    background-color: blue;    
 
+.get{
+
+    background-color: blue;
+    margin: 80px 43.5%;
+    padding: 20px 20px;
+    border-radius: 40px;
 }
 .Started{
+    color: aliceblue;
+    font-weight: 800;
 
+    font-size: 20px;
+    margin: 20px 20%;
+}
 
+footer{
+   background-color: aliceblue;
+   
+   font-weight: 700;
+   font-size: 20px;
+   padding-top: 55px;
+   text-align: center;
 }
