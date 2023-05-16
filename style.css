@@ -98,13 +98,91 @@ footer{
 }
 
 .image img{
-width: 190px;
+width: 150px;
 
 }
+
 .code{
-    padding-top: 45px;
+    padding-top: 65px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 125px;
+    
+   
 }
-.code img{
+
+
+.link1{
+  font-size: 20px;
+  font-weight: 200;
+    
+   
+
+}
+
+/*page 3*/
+
+.page2{
+background-image: url(image/OR68VT0.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+height: 65vh;
+
+
+
+
+}
+
+.par{
+    color: white;
+    padding: 10%;
+}
+.par p{
+    font-size: 20px;
+    
+    font-weight: 100;
+   padding: 30px 330px;
+   font-style: normal;
+}
+.par h2{
+    font-size: 50px;
+    font-style: normal;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.par a{
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 30px;
     
 }
- 
+
+/*-------page 3--------*/
+
+.page3{
+    background-color: white;
+    padding-top: 80px;
+    
+}
+.page3 h1{
+    color: rgb(0, 0, 107);
+    font-weight: 800;
+    font-size: 35px ;
+}
+.page3 p{
+    padding-top: 18px;
+    color: rgb(148, 144, 144);
+    font-weight: 400;
+}
+.card2{
+    margin-top: 170px;
+}
+.solo a{
+    background-color: rgb(4, 236, 159);
+    border-radius: 35px;
+    padding: 140px;
+}
+
