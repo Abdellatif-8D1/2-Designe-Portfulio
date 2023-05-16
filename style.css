@@ -15,13 +15,14 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
-  
+    padding-top: 20px;
 
 }
 
 .first h2{
     font-size: x-large;
-   font-weight: 700;
+   font-weight:bolder;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     padding-top: 39px;
     padding-left: 40px;
@@ -41,12 +42,15 @@ padding-top: 39x;
     padding-right: 35px;
     font-size: 20px;
 }
-
-.nav a:hover{
+.borde1{
     color: #643A6B;
     background-color: aliceblue;
-
+   border-radius: 45px;
+   padding: 26px;
+   
 }
+
+
 
 .text h1{
     color: aliceblue;
@@ -68,20 +72,17 @@ padding-top: 39x;
     font-size: 20px;
 }
 
-
-.get{
-
-    background-color: blue;
-    margin: 80px 43.5%;
-    padding: 20px 20px;
-    border-radius: 40px;
-}
-.Started{
+.fine{
     color: aliceblue;
+    font-size: 25px;
     font-weight: 800;
+    padding: 80px 40%;  
 
-    font-size: 20px;
-    margin: 20px 20%;
+}
+.fine a{
+    background-color: blue;
+    border-radius: 25px;
+    padding: 8%;
 }
 
 footer{
@@ -92,3 +93,18 @@ footer{
    padding-top: 55px;
    text-align: center;
 }
+.image{
+    padding-top: 35px;
+}
+
+.image img{
+width: 190px;
+
+}
+.code{
+    padding-top: 45px;
+}
+.code img{
+    
+}
+ 
