@@ -41,13 +41,17 @@ padding-top: 39x;
     padding-top: 39px;
     padding-right: 35px;
     font-size: 20px;
+    text-decoration: none;
+}
+.borde{
+    color: white;
 }
 .borde1{
     color: #643A6B;
     background-color: aliceblue;
    border-radius: 45px;
    padding: 26px;
-   
+   text-decoration: none;
 }
 
 
@@ -76,13 +80,16 @@ padding-top: 39x;
     color: aliceblue;
     font-size: 25px;
     font-weight: 800;
-    padding: 80px 40%;  
 
+    padding: 80px 40%;  
+text-align: center;
 }
 .fine a{
     background-color: blue;
     border-radius: 25px;
     padding: 8%;
+    color: white;
+    text-decoration: none;
 }
 
 footer{
@@ -157,7 +164,7 @@ height: 65vh;
     background-color: blue;
     border-radius: 20px;
     padding: 10px 30px;
-    
+    text-decoration: none;
 }
 
 /*-------page 3--------*/
@@ -180,18 +187,16 @@ height: 65vh;
 
 /*----------*/
 
-.card2{
-    margin-top: 170px;
-
-}
 
 /*////////////////////////*/
 
 .card2{
-margin:10px 105px;
+background-color: white;
+
 text-align: center;
 display: flex;
 justify-content: space-between;
+
 
 }
 
