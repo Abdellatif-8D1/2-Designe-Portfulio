@@ -177,12 +177,78 @@ height: 65vh;
     color: rgb(148, 144, 144);
     font-weight: 400;
 }
+
+/*----------*/
+
 .card2{
     margin-top: 170px;
-}
-.solo a{
-    background-color: rgb(4, 236, 159);
-    border-radius: 35px;
-    padding: 140px;
+
 }
 
+/*////////////////////////*/
+
+.card2{
+margin:10px 105px;
+text-align: center;
+display: flex;
+justify-content: space-between;
+
+}
+
+.solo  {
+    background-color: rgba(223, 222, 222, 0.861);
+    border-radius: 30px;    
+    margin: 100px 25px;
+    
+}
+.solo h3{
+color: rgb(10, 10, 78);
+text-align: start;
+padding-left: 40px;
+padding-top: 40px;
+font-size: 19px;
+font-weight: 600;
+
+}
+
+.solo h1{
+
+color: rgb(10, 10, 78);
+text-align: start;
+padding-left: 40px;
+padding-top: 20px;
+}
+.solo p{
+    padding-right: 15px;
+    color: rgba(110, 106, 106, 0.683);
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+
+.solo h4{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    margin: 25px 50px;
+    
+    padding: 11px 25px;
+}
+
+.solo25{
+    background-color: blue;
+    border-radius: 30px;
+
+}
+
+.solo25 h3{color: aliceblue;}
+.solo25 h1{color: aliceblue;}
+.solo25 p{color: aliceblue;}
+.solo25 h4{
+ 
+color: rgb(10, 10, 78);
+   background-color: aliceblue;
+}
