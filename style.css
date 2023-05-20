@@ -40,7 +40,7 @@ padding-top: 39x;
 .nav a{
     padding-top: 39px;
     padding-right: 35px;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 }
 .borde{
@@ -135,8 +135,7 @@ background-size: cover;
 background-repeat: no-repeat;
 
 height: 65vh;
-
-
+background-attachment: fixed;
 
 
 }
@@ -148,9 +147,11 @@ height: 65vh;
 .par p{
     font-size: 20px;
     
-    font-weight: 100;
-   padding: 30px 330px;
+    font-weight: 100;/*
+   padding: 30px 330px;*/
    font-style: normal;
+   padding: 80px 15%;
+   
 }
 .par h2{
     font-size: 50px;
@@ -239,9 +240,11 @@ padding-top: 20px;
     color: white;
     background-color: blue;
     border-radius: 25px;
-    margin: 25px 50px;
+    margin: 30px 50px;
     
     padding: 11px 25px;
+    text-align: center;
+    display: flex;
 }
 
 .solo25{
@@ -257,4 +260,71 @@ padding-top: 20px;
  
 color: rgb(10, 10, 78);
    background-color: aliceblue;
+}
+
+/*----------------------*/
+.back{
+    background-color: white;
+}
+.icon4{
+    background-color: #643A6B;
+    border-radius: 45px;
+    text-align: start;
+    margin:10px 40px;
+    padding-bottom: 3%;
+    display: flex;
+    
+}
+.icon4 img{
+    width: 60%;
+    padding: 35px 8%;
+  
+}
+.icon4 h1{
+    padding-top:36%;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.icon4 h3{
+padding-top: 5%;
+color: white;
+font-weight: 100;
+font-size: 20px;
+font-style:initial;
+font-family:Georgia, 'Times New Roman', Times, serif ;
+padding-bottom: 40px;
+}
+.text4 a{
+    text-decoration: none;
+    background-color:white ;
+    border-radius: 100px;
+     padding: 4% 10%;   
+
+
+
+}
+
+
+/*---------------------*/
+
+.laste{
+    background-color: #e02c2c;
+    display: flex;
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-weight: 900;
+    font-size: 34px;    
+}
+
+.alll{
+    justify-content: space-between;
+  
+    display: flex;
+}
+.lasticon{
+margin-left: 100px;
 }
