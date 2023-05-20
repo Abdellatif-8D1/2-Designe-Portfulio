@@ -205,9 +205,10 @@ justify-content: space-between;
     background-color: rgba(223, 222, 222, 0.861);
     border-radius: 30px;    
     margin: 100px 25px;
-    
+
 }
 .solo h3{
+    display: flex;
 color: rgb(10, 10, 78);
 text-align: start;
 padding-left: 40px;
@@ -227,7 +228,9 @@ padding-top: 20px;
 .solo p{
     padding-right: 15px;
     color: rgba(110, 106, 106, 0.683);
+    
     text-align: start;
+    
     padding-left: 40px;
     padding-top: 32px;
     font-weight: 400;
@@ -241,10 +244,11 @@ padding-top: 20px;
     background-color: blue;
     border-radius: 25px;
     margin: 30px 50px;
-    
     padding: 11px 25px;
-    text-align: center;
+    
     display: flex;
+    text-align: center;
+    
 }
 
 .solo25{
@@ -265,6 +269,7 @@ color: rgb(10, 10, 78);
 /*----------------------*/
 .back{
     background-color: white;
+    padding: 0px 3%;
 }
 .icon4{
     background-color: #643A6B;
@@ -310,21 +315,45 @@ padding-bottom: 40px;
 
 /*---------------------*/
 
-.laste{
-    background-color: #e02c2c;
-    display: flex;
-    text-align: start;
-    padding-left: 40px;
-    padding-top: 40px;
-    font-weight: 900;
-    font-size: 34px;    
+.name2{
+display: flex;
+padding: 60px ;
+justify-content: space-between;
+
 }
 
-.alll{
-    justify-content: space-between;
-  
+.name22{
+
+    color: rgb(10, 10, 78);
+    font-size: 41px;
+    padding-left: 6rem;
+}
+
+.and1{
+
+    text-align: end;
     display: flex;
+    justify-content: space-between;
 }
-.lasticon{
-margin-left: 100px;
+
+
+.div{
+    padding:0px 80px;
+    text-align: start
+
 }
+.div h1{
+    font-size: 23px ;
+
+    color: rgb(10, 10, 78);
+    font-weight: 900;
+    padding-bottom: 12px;
+}
+.div a{
+    font-weight: 400;
+    text-decoration: none;
+    
+color: rgb(10, 10, 78);
+}
+
+.div a:hover{ text-decoration-line: underline;}
