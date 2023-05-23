@@ -357,3 +357,18 @@ color: rgb(10, 10, 78);
 }
 
 .div a:hover{ text-decoration-line: underline;}
+
+@media screen and (max-width:600px){
+   .body{
+    margin-right: -215px;
+   }
+    .all01{
+    }
+    .first h2{
+        padding-left: 10px;
+    }
+    .text{
+    margin: -80px -250px;
+    }
+    
+}
