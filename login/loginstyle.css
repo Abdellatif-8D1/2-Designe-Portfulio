@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    background-image: url(Image/pexels-hasan-albari-1229861.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.fisrt{
+position: absolute;
+left: 50%;
+margin-left: -150px;
+margin-top: -50px;
+
+top: 30%;
+z-index: 2;
+
+
+}
+.log{
+    padding: 16px 65px;
+    padding-bottom: 50px;
+background-color: rgba(0, 0, 0, 0.36);
+border-radius: 40px;
+}
+
+.fisrt i{
+padding: 0px 45%;
+font-size: 50px;
+
+}
+
+
+.log h1{
+    color: white;
+text-align: center;
+font-size: 50px;
+}
+
+.na p{
+    padding-top: 41px;
+    font-size: 21px;
+    padding-bottom: 40px;
+}
+
+.na{
+
+    text-align: start;
+    padding-bottom: 30px;
+display: grid;
+}
+
+.label{padding-bottom: 13px;
+    color: white;
+}
+.input{
+    border-radius: 8px;
+}
+.login{
+    text-align: center;
+}
+.login a {
+    color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    font-size: 25px;
+    padding: 5px 19px;
+    background-color: rgb(38, 38, 161);
+    
+}
+.forget{
+    font-weight: 500;
+    color: white;
+
+
+}
